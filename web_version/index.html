@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Password Strength Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>🔐 Password Strength Checker</h1>
+
+    <input 
+      type="password" 
+      id="password" 
+      placeholder="Entrez votre mot de passe"
+      oninput="checkPassword()"
+    />
+
+    <div id="strength"></div>
+
+    <ul id="rules"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
